@@ -6,7 +6,7 @@ int main(){
     for(index=1000;index>=1;index--){
         printf("%d\t",index);
        i++;
-        if(index%5==0){
+        if(i%5==0){
             printf("\n");
         }
     }
